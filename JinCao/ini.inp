@@ -1,0 +1,24 @@
+tolerance 2.0
+
+# The file type of input and output files is PDB
+
+filetype pdb
+
+# The name of the output file
+
+output ini.pdb
+
+# 1000 water molecules and 400 urea molecules will be put in a box
+# defined by the minimum coordinates x, y and z = 0. 0. 0. and maximum
+# coordinates 40. 40. 40. That is, they will be put in a cube of side
+# 40. (the keyword "inside cube 0. 0. 0. 40.") could be used as well.
+
+structure 1_ethyl_3_methylimidazol_3_ium.pdb
+  number 800
+  inside box 0. 0. 0. 80. 80. 80.
+end structure
+
+structure 1_1_1_trifluoro_N__trifluoromethylsulfonyl_methanesulfonimidate.pdb
+  number 800
+  inside box 0. 0. 0. 80. 80. 80.
+end structure

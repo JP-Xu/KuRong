@@ -1,0 +1,17 @@
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ    fudgeQQ
+     1              2              yes            0.5       0.8333
+
+#include "gaff_nonbon.itp"
+#include "gaff_bon.itp"
+#include "ethyl_resp2.itp"
+#include "trifluoro_resp2.itp"
+
+[ system ]
+resp2
+
+[ molecules ]
+; Molecule      nmols
+ETH     1200
+TRI    1200
