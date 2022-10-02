@@ -15,7 +15,9 @@ This project includes several phases:
   * Bulk phase ionic liquids MD simulations are used for force field validation.
 * Phase 4 - Gibbs Ensemble Monte-Carlo (GEMC) simulations
   * Cassandra provides GEMC ensemble for phase change simulations, which fits our needs.
-
+* Phase 5 - Machine learning
+  * There are many possible parameters could be used for ML, including molecular descriptors (from QM), temperatures, gibbs energy, etc.
+  * Model will be trained and tested based on current database. Out of database observations may also be used for validation.
 
 
 ## Software used in this work:
@@ -28,6 +30,12 @@ This project includes several phases:
 * Cassandra - Monte-Carlo Simulations
 * Packmol - Initial configuration for MD
 * openbabel - 3D atom structure generation
+* Mongodb - Local database 
 * Python 
   * Selenium - ILThermo database spider
+  * Pandas - data operation
+  * pytorch - ML
   * Batch processing - Automated work flow
+
+
+NOTE: This project is updating slowly as redundant academic/course work during semesters.
