@@ -2,7 +2,7 @@
 An on-going machine learning project for prediction of $CO_2$ absoprtion in different types of ionic liquids. 
 
 ## Background 
-Non-volatile and flexible ionic liquids (ILs) are popular for $CO_2$ absorption processes as their high polarity which can absorb $CO_2$ molecules preferably.
+Ionic liquids (ILs) are normally defined as compounds completely composed of ions with melting point below 100 °C. Non-volatile and flexible ILs are popular for $CO_2$ absorption processes as their high polarity which can absorb $CO_2$ molecules preferably. However, there are millons of possible IL structures to explore, this is an exhausted work. Hence, this project aims to use available IL database, QM/MD/MC simulations, and machine learning for the prediction of $CO_2$ absorption with the best accuracy of my knowledge.
 
 ## Goal
 
